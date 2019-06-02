@@ -1,8 +1,8 @@
-# Lab 5-- Shiny App
+Lab 5-- Shiny App
 This Shiny App functions as the first visualization of my final project data. This app displays traffic collisions in Chicago that resulted in at least one injury. Code for the slider was taken from the workshop by Angela Li. The slider was modified to allow the user to filter crashes by the hour in which they occur. Moving the slider can show trends such as rush hour. The spatial distribution of the crashes allows users to see dangerous areas, like highways. The additions made by this work include designing a custom marker for leaflet that is smaller and easier to resolve. 
 Data can be downloaded from the repository.
 
-## Getting Started
+Getting Started
 
 Download the collisons shapefile (Zipped as COL_i). Unzip it.
 
@@ -11,6 +11,6 @@ Open the Shiny App and change line 49 to the directory in which the COL_i folder
 Run the app.
 
 
-## Built With
+Built With
 
 * Shiny for R, leaflet
