@@ -46,7 +46,8 @@ myicon <- makeIcon(
   iconAnchorX = 22, iconAnchorY = 94)
 
   output$map <- renderLeaflet({
-    COL_i <- readOGR(".", "/User/Data/COL_i")
+    setwd("/Users/.../COL_i")
+    COL_i <- readOGR(".", "COL_i")
     filter(COL_i, crash_hour == input$hour) %>%  # subset by hour
       leaflet() %>%
       addTiles() %>%
